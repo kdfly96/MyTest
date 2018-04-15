@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Group Suite" duration-ms="94" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+    <groups>
+      <group name="BOOK">
+        <method signature="GroupTest.bookTest()[pri:3, instance:groupintest.GroupTest@36d4b5c]" name="bookTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.loginTest()[pri:1, instance:groupintest.GroupTest@36d4b5c]" name="loginTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.regTest()[pri:2, instance:groupintest.GroupTest@36d4b5c]" name="regTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.bookTest()[pri:3, instance:groupintest.GroupTest@4b9e13df]" name="bookTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.loginTest()[pri:1, instance:groupintest.GroupTest@4b9e13df]" name="loginTest" class="groupintest.GroupTest"/>
+      </group> <!-- BOOK -->
+      <group name="CANCEL">
+        <method signature="GroupTest.bookTest()[pri:3, instance:groupintest.GroupTest@36d4b5c]" name="bookTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.loginTest()[pri:1, instance:groupintest.GroupTest@36d4b5c]" name="loginTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.bookTest()[pri:3, instance:groupintest.GroupTest@4b9e13df]" name="bookTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.cancelTest()[pri:4, instance:groupintest.GroupTest@4b9e13df]" name="cancelTest" class="groupintest.GroupTest"/>
+        <method signature="GroupTest.loginTest()[pri:1, instance:groupintest.GroupTest@4b9e13df]" name="loginTest" class="groupintest.GroupTest"/>
+      </group> <!-- CANCEL -->
+    </groups>
+    <test name="Booking Test" duration-ms="31" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+      <class name="groupintest.GroupTest">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:groupintest.GroupTest@36d4b5c]" name="loginTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="bookTest()[pri:3, instance:groupintest.GroupTest@36d4b5c]" name="bookTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTest -->
+        <test-method status="PASS" signature="regTest()[pri:2, instance:groupintest.GroupTest@36d4b5c]" name="regTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest -->
+      </class> <!-- groupintest.GroupTest -->
+    </test> <!-- Booking Test -->
+    <test name="Cancel Test" duration-ms="16" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+      <class name="groupintest.GroupTest">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:groupintest.GroupTest@4b9e13df]" name="loginTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="bookTest()[pri:3, instance:groupintest.GroupTest@4b9e13df]" name="bookTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTest -->
+        <test-method status="PASS" signature="cancelTest()[pri:4, instance:groupintest.GroupTest@4b9e13df]" name="cancelTest" duration-ms="0" started-at="2018-04-03T17:02:39Z" finished-at="2018-04-03T17:02:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelTest -->
+      </class> <!-- groupintest.GroupTest -->
+    </test> <!-- Cancel Test -->
+  </suite> <!-- Group Suite -->
+</testng-results>
